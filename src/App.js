@@ -1,10 +1,10 @@
 import React from "react";
-import Drawer from "./components/Drawer";
+import Header from "./components/Navbar/Header"
 
 function App() {
   return (
-    <div className="App">
-     <Drawer />
+    <div>
+     <Header />
     </div>
   );
 }
