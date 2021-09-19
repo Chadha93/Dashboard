@@ -27,11 +27,11 @@ export default function AccountMenu() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <Tooltip title="Account settings">
+      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center',}}>
+        <Tooltip title="notifications">
           <IconButton onClick={handleClick} size="small" sx={{ ml: 2}}>
-            <Badge badgeContent={3} color='secondary'>
-                <NotificationsNoneIcon sx={{ width: 25, height: 25 }} />
+            <Badge color="secondary" variant="dot">
+                <NotificationsNoneIcon sx={{ width: 22, height: 22, color: 'white' }} />
             </Badge>
           </IconButton>
         </Tooltip>

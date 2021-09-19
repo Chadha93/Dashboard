@@ -12,11 +12,16 @@ import Profile from './Profile';
 import Notification from './Notification';
 import { Box } from '@mui/system';
 import ListIcon from '@mui/icons-material/List';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 export default function ButtonAppBar() {
+
   return (
       <AppBar position="static">
         <Toolbar>
+          <IconButton>
+            <AcUnitIcon sx={{color: 'white'}}/>
+          </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Dashboard
           </Typography>
